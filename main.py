@@ -4,10 +4,10 @@ import os
 os.system('cls')
 
 def find_the_number():
-    number_list = list(range(0, 101))
+    number_list = list(range(0, 11))
     x = random.choice(number_list)
 
-    y = int(input("Enter a number 1-100: "))
+    y = int(input("Enter a number 1-10: "))
 
     if x == y:
         print(f"yea! Number: {x}")
